@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--font size of all app-->
+        <item name="android:textSize">12sp</item>
+        <!--alert dialog theme-->
+        <item name="alertDialogTheme">@style/MyAlertDialogTheme</item>
+    </style>
+
+
+    <!-- No Action Bar-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog.Alert" tools:targetApi="lollipop">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
